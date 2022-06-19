@@ -5,7 +5,9 @@
     <Tab :highlight="visiting_page" />
     <div class="main-content min-h-screen mt-2 container mx-auto">
         <div v-for="(category, index) in categories" :key="category">
-            <div class="card-grid grid grid-cols-8 mx-4 gap-8">
+            <div
+                class="card-grid grid lg:grid-cols-8 md:grid-cols-4 grid-cols-2 mx-4 gap-8"
+            >
                 <div v-for="(album, index_album) in category" :key="album">
                     <!-- {{ index_album }} -->
                     <Card

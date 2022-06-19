@@ -1,6 +1,6 @@
 <template>
     <div class="bg-gray-200 w-full">
-        <div class="container mx-auto">
+        <div class="mx-auto">
             <div
                 class="tab flex flex-row px-16 pt-14"
                 v-if="highlight === 'home'"

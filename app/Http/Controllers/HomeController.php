@@ -211,13 +211,12 @@ class HomeController extends Controller
 
         $images = $images[$album];
 
-        return Inertia::render('Album', ['images' => $images]);
+        return Inertia::render('Album', ['images' => $images, 'category' => $category, 'album' => $album]);
     }
 
-public function images(){
+    public function images()
+    {
 
-    return Inertia::render('Images');
-}
-
-
+        return Inertia::render('Images');
+    }
 }
