@@ -16,7 +16,7 @@
             <Card :url="'https://picsum.photos/id/236/200/200'" :name="'8.jpeg'" :total_images_in_album="'8'" />
             <Card :url="'https://picsum.photos/id/238/200/200'" :name="'9.jpeg'" :total_images_in_album="'8'" />
             <Card :url="'https://picsum.photos/id/239/200/200'" :name="'10.jpeg'" :total_images_in_album="'8'" />
-
+            
         </div>
 
 
@@ -47,6 +47,10 @@ export default {
         }
     },
     props: {
+        'images': {
+            type: Array,
+            default: []
+        },
 
     }
 
