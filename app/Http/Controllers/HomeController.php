@@ -182,9 +182,42 @@ class HomeController extends Controller
         } else {
             $images = $this->getDownJackets();
         }
+        if ($category == 'downjackets') {
+            $images = $this->getBelts();
+        } else {
+            $images = $this->getDownJackets();
+        }
+        if ($category == 'shirts') {
+            $images = $this->getBelts();
+        } else {
+            $images = $this->getDownJackets();
+        }
+        if ($category == 'tshirts') {
+            $images = $this->getBelts();
+        } else {
+            $images = $this->getDownJackets();
+        }
+        if ($category == 'sweater') {
+            $images = $this->getBelts();
+        } else {
+            $images = $this->getDownJackets();
+        }
+        if ($category == 'jackets') {
+            $images = $this->getBelts();
+        } else {
+            $images = $this->getDownJackets();
+        }
+
 
         $images = $images[$album];
 
         return Inertia::render('Album', ['images' => $images]);
     }
+
+public function images(){
+
+    return Inertia::render('Images');
+}
+
+
 }

@@ -19,4 +19,9 @@ use Inertia\Inertia;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/category/{category}', [HomeController::class, 'category']);
 Route::get('/categories/{category}/{album}', [HomeController::class, 'album']);
+
+Route::get('/images', [HomeController::class, 'images']);
+
+
+
 require __DIR__ . '/auth.php';
