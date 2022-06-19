@@ -22013,7 +22013,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "relative bottom-0 px-6 py-4 mt-12 text-white bg-green-700 bg-opacity-70 text-md"
+  "class": "relative bottom-0 px-6 py-4 mt-12 text-white bg-green-600 bg-opacity-70 text-md"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -22049,7 +22049,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "p-2 bg-green-700 bg-opacity-70"
+  "class": "p-2 bg-green-600 bg-opacity-70"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -22160,7 +22160,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       href: "/category/" + category_name
     }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(category_name), 9
     /* TEXT, PROPS */
-    , _hoisted_8)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <hr /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <a\n                            v-for=\"(album, album_name) in category\"\n                            :key=\"album\"\n                            class=\"hover:text-green-500 cursor-pointer\"\n                            :href=\"\n                                `/categories/` +\n                                category_name +\n                                `/` +\n                                album_name\n                            \"\n                        >\n                            {{ album_name }}\n                            <br />\n                        </a> ")]);
+    , _hoisted_8)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <hr /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <a\r\n                            v-for=\"(album, album_name) in category\"\r\n                            :key=\"album\"\r\n                            class=\"hover:text-green-500 cursor-pointer\"\r\n                            :href=\"\r\n                                `/categories/` +\r\n                                category_name +\r\n                                `/` +\r\n                                album_name\r\n                            \"\r\n                        >\r\n                            {{ album_name }}\r\n                            <br />\r\n                        </a> ")]);
   }), 128
   /* KEYED_FRAGMENT */
   ))])])], 544
