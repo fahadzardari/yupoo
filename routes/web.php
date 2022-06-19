@@ -17,5 +17,6 @@ use Inertia\Inertia;
 */
 
 Route::get('/' ,[HomeController::class , 'index'] );
+Route::get('/category/{category}' ,[HomeController::class , 'category'] );
 
 require __DIR__.'/auth.php';
