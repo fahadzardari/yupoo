@@ -549,7 +549,6 @@ export default {
     },
     methods: {
         HomeClicked() {
-            alert("Home Clicked");
             this.$inertia.visit("/");
         },
     },
