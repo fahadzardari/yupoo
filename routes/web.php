@@ -17,4 +17,5 @@ use Inertia\Inertia;
 */
 
 Route::get('/' ,[HomeController::class , 'index'] );
+
 require __DIR__.'/auth.php';
