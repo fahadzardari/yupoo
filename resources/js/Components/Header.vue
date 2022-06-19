@@ -1,7 +1,9 @@
 <template>
-    <nav class="bg-green-500 bg-opacity-70 p-4">
+    <nav class="p-2 bg-green-700 bg-opacity-70">
         <div class="flex flex-row">
-            <img src="storage/app/logo/logo.png" alt="Logo" >
+            <img src="/storage/images/Logo.png" 
+            class="w-20 h-20 ml-4"
+            alt="Logo" >
             
         </div>
     </nav>
