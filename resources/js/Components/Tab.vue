@@ -1,19 +1,19 @@
 <template>
     <div>
-        <div class="bg-gray-200 w-full">
+        <div class="w-full bg-gray-200">
             <div class="container mx-auto">
                 <div
-                    class="tab flex flex-row px-16 pt-14"
+                    class="flex flex-row px-16 tab pt-14"
                     v-if="highlight === 'home'"
                 >
                     <button
-                        class="pb-4 border border-b-2 mr-3 text-green-500 text-md border-b-green-400"
+                        class="pb-4 mr-3 text-green-500 border border-b-2 text-md border-b-green-400"
                         @click="HomeClicked()"
                     >
                         Home
                     </button>
                     <button
-                        class="text-md pb-4"
+                        class="pb-4 text-md"
                         @mouseover="show = true"
                         @mouseleave="show = false"
                         @click="show = !show"
@@ -22,14 +22,14 @@
                     </button>
                 </div>
                 <div
-                    class="tab flex flex-row px-16 pt-14"
+                    class="flex flex-row px-16 tab pt-14"
                     v-if="highlight === 'categories'"
                 >
                     <button class="pb-4 mr-3" @click="highlight = HomeClicked">
                         Home
                     </button>
                     <button
-                        class="text-md pb-4 border border-b-2 mr-3 text-green-500 text-md border-b-green-400"
+                        class="pb-4 mr-3 text-green-500 border border-b-2 text-md border-b-green-400"
                         @mouseover="show = true"
                         @mouseleave="show = false"
                         @click="show = !show"
@@ -40,15 +40,15 @@
             </div>
         </div>
         <div
-            class="flex justify-center items-center"
+            class="flex items-center justify-center"
             v-show="show"
             @mouseover="show = true"
             @mouseout="show = false"
         >
             <div
-                class="dropdown-menu w-10/12 shadow-lg bg-white p-6 rounded-md"
+                class="w-10/12 p-6 bg-white rounded-md shadow-lg dropdown-menu"
             >
-                <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+                <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
                     <div
                         v-for="(category, category_name) in all_categories"
                         :key="category"
@@ -83,7 +83,7 @@ export default {
             type: Array,
             default: {
                 belts: {
-                   '腰带':[]
+                '腰带':[]
                 },
                 downjackets: {
                     "外套": [],
