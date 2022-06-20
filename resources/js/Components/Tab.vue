@@ -53,13 +53,16 @@
                         v-for="(category, category_name) in all_categories"
                         :key="category"
                     >
-                        <h1 class="text-lg uppercase hover:text-green-500" v-for="(album, album_name) in category"
-                            :key="album">
+                        <h1
+                            class="text-lg uppercase hover:text-green-500"
+                            v-for="(album, album_name) in category"
+                            :key="album"
+                        >
                             <a :href="`/category/` + category_name">
-                            {{ album_name }}</a>
-                            <hr>
+                                {{ album_name }}</a
+                            >
+                            <hr />
                         </h1>
-                        
                     </div>
                 </div>
             </div>
@@ -83,24 +86,22 @@ export default {
             type: Array,
             default: {
                 belts: {
-                '腰带':[]
+                    "皮带 The belt": [],
                 },
                 downjackets: {
-                    "外套": [],
+                    "羽绒服Down jacket": [],
                 },
                 jackets: {
-                    "外套": [],
-                
+                    "夹克货稳 JACKET": [],
                 },
                 shirts: {
-                    "T恤": [],
+                    "衬衫 shirt": [],
                 },
                 sweaters: {
-                    "毛衣": [],
+                    毛衣Sweater: [],
                 },
                 tshirts: {
-                    "T恤": [],
-                
+                    "圆领短袖 T-shirt": [],
                 },
             },
         },
