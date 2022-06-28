@@ -98,7 +98,7 @@ export default {
                     "衬衫 shirt": [],
                 },
                 sweaters: {
-                    毛衣Sweater: [],
+                    "毛衣 Sweater": [],
                 },
                 tshirts: {
                     "圆领短袖 T-shirt": [],
