@@ -841,6 +841,9 @@ select {
 .h-screen {
   height: 100vh;
 }
+.h-10 {
+  height: 2.5rem;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -864,9 +867,6 @@ select {
 }
 .w-screen {
   width: 100vw;
-}
-.max-w-xl {
-  max-width: 36rem;
 }
 .max-w-6xl {
   max-width: 72rem;
@@ -945,9 +945,6 @@ select {
 }
 .border-t {
   border-top-width: 1px;
-}
-.border-r {
-  border-right-width: 1px;
 }
 .border-b-2 {
   border-bottom-width: 2px;
@@ -1064,9 +1061,6 @@ select {
 }
 .leading-7 {
   line-height: 1.75rem;
-}
-.tracking-wider {
-  letter-spacing: 0.05em;
 }
 .text-gray-500 {
   --tw-text-opacity: 1;

@@ -21769,7 +21769,7 @@ __webpack_require__.r(__webpack_exports__);
           "衬衫 shirt": []
         },
         sweaters: {
-          毛衣Sweater: []
+          "毛衣 Sweater": []
         },
         tshirts: {
           "圆领短袖 T-shirt": []
@@ -22045,7 +22045,7 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "flex flex-row"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/storage/images/Logo.png",
-  "class": "w-20 h-20 ml-4",
+  "class": "w-20 h-10 ml-4",
   alt: "Logo"
 })], -1
 /* HOISTED */
